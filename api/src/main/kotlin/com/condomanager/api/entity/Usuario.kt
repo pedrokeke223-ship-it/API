@@ -8,7 +8,7 @@ import jakarta.persistence.Id
 import jakarta.persistence.Table
 
 @Entity
-@Table(name = "tb.suarios")
+@Table(name = "tb_usuarios")
 data class Usuario(
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     var id: Long,
